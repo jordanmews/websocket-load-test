@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"gows-man/helpers"
 	"log"
 	"strings"
 	"sync"
 	"time"
+	"websocket-load-test/helpers"
 
 	"github.com/gorilla/websocket"
 )

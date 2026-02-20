@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gows-man/helpers"
+	"websocket-load-test/helpers"
 
 	"flag"
 	"fmt"
