@@ -3,7 +3,7 @@ The server periodically sends json messages on a ticker feed.
 The client checks the incoming messages for expected syntax in `TestWsMessageTypeContainsMsg`
 
 ## SETUP
-From project's root dir:
+From project's root dir:  
 `go mod init websocket-load-test`  
 `go mod tidy`
 
