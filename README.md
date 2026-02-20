@@ -1,4 +1,4 @@
-# Load-test a websocket server w/ Golang websocket client 
+# Load-test a websocket server w/ Go websocket client 
 - Configurable # of connections, ramp-up and hold time.
 - A simple example server is also included to test against.
 - The server periodically sends json messages on a ticker feed.
