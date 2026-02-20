@@ -2,6 +2,11 @@ Golang websocket client with configurable # of connections and ramp-up time. A s
 The server periodically sends json messages on a ticker feed.
 The client checks the incoming messages for expected syntax in `TestWsMessageTypeContainsMsg`
 
+## SETUP
+From project's root dir:
+`go mod init websocket-load-test`
+`go mod tidy`
+
 ## RUN
 Run server and client. 
 From root project dir, 
