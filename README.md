@@ -4,7 +4,7 @@ The client checks the incoming messages for expected syntax in `TestWsMessageTyp
 
 ## SETUP
 From project's root dir:
-`go mod init websocket-load-test`
+`go mod init websocket-load-test`  
 `go mod tidy`
 
 ## RUN
